@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
 
-include "src/Dates/BirthDays.php";
+include 'src/Dates/BirthDays.php';
 
-$opts = getopt("b:");
+$opts = getopt('b:');
 
 $birthDate = $opts['b'] ?? '1973-09-09';
 
